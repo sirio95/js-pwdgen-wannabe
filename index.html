@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5dc396147b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Password Generator</title>
 </head>
 <body>
+    <div class="background">
+        <h1 id="password"></h1>
+
+        <!-- divertimento -->
+        <div id="funny">
+            <h2>La password è di tuo gradimento?</h2>
+            <div class="button">
+                <button onclick="ShowImage1()">SI</button>
+                <i class="fa-regular fa-face-smile-hearts" id="password_good">È MOOOLTO SICURA</i>
+                <button onclick="ShowImage2()">NO</button>
+                <i class="fa-regular fa-face-nose-steam" id="password_bad">ERA MEGLIO "1234"</i>
+            </div>
+            
+        </div>
+    </div>
     
-    <h1 id="password"></h1>
 
     <script type="text/javascript" src="js/myscript.js"></script>
 </body>
